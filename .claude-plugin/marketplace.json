@@ -1,0 +1,27 @@
+{
+  "name": "tu-voz-con-ia",
+  "owner": {
+    "name": "Comunidad UX/UI",
+    "url": "https://github.com/CUXUI"
+  },
+  "metadata": {
+    "description": "Que la IA te hable como quieres y escriba como tú: tu perfil de voz y tono.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tu-voz",
+      "description": "Que la IA te hable como quieres y escriba como tú: tu perfil de voz y tono.",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "author": {
+        "name": "Comunidad UX/UI"
+      },
+      "license": "CC-BY-NC-SA-4.0",
+      "skills": [
+        "./skills/tu-voz"
+      ]
+    }
+  ]
+}
